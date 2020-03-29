@@ -132,5 +132,5 @@ dmypy.json
 # Personal
 /img
 /media
-/data
 /.idea
+/ignore
