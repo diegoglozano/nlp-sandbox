@@ -25,7 +25,7 @@ choice = st.sidebar.radio('',
 
 df = read_data(DATA_PATH / 'train.csv', nrows=NROWS)
 stop_words = read_stop_words(DATA_PATH / 'stop-words.txt')
-word2vec = read_word2vec(DATA_PATH / 'GoogleNews-vectors-negative300.bin',
+word2vec = read_word2vec(DATA_PATH / 'word2vec.bin',
                          limit=LIMITW2V)
 
 # ----------------------------------------------------------------------------------------------------------------------
